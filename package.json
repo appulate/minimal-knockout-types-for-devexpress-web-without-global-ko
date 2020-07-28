@@ -1,0 +1,17 @@
+{
+	"name": "@appulate/minimal-knockout-types-for-devexpress-web-without-global-ko",
+	"version": "0.0.1",
+	"description": "Minimal Knockout.js TypeScript definitions for @types/devexpress-web without global ko variable",
+	"repository": "appulate/minimal-knockout-types-for-devexpress-web-without-global-ko",
+	"types": "index.d.ts", 
+	"license": "MIT",
+	"devDependencies": {
+		"knockout": "^3.5.1"
+	},
+	"peerDependencies": {
+		"knockout": "^3.5.1"
+	},
+	"files": [
+		"index.d.ts"
+	]
+}
