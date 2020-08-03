@@ -19,7 +19,7 @@ type 'KnockoutStatic'.
 	    'ko' was also declared here.
 ```
  
-## Solution:
+## Solution
  
 To solve these problems, we use the Yarn resolutions functionality to replace the `@types/knockout` package with one that does not contain the global `ko` variable. We have to declare some global types because they are used in `@types/devexpress-web`. If the `@types/devexpress-web` package starts using some other Knockout types in the future, we will need to add them to this file.
 ```json
